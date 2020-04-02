@@ -1,0 +1,22 @@
+{
+  "name": "docsify-ssr-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "docsify start ." 
+  },
+  "docsify": {
+    "config": {
+      "name": "docsify",
+      "template": "index.html",
+      "loadSidebar": true      
+    }
+  },
+  "dependencies": {
+    "docsify-cli": "^4.1.7"
+  },
+  "devDependencies": {
+    "now": "^6.2.0"
+  }
+}
